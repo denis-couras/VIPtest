@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2FE7A82823677000B0F807 /* appVIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7A72823677000B0F807 /* appVIPApp.swift */; };
+		EC2FE7AA2823677000B0F807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7A92823677000B0F807 /* ContentView.swift */; };
+		EC2FE7AC2823677100B0F807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2FE7AB2823677100B0F807 /* Assets.xcassets */; };
+		EC2FE7AF2823677100B0F807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2FE7AE2823677100B0F807 /* Preview Assets.xcassets */; };
+		EC2FE7B92823677200B0F807 /* appVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7B82823677200B0F807 /* appVIPTests.swift */; };
+		EC2FE7C32823677200B0F807 /* appVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7C22823677200B0F807 /* appVIPUITests.swift */; };
+		EC2FE7C52823677200B0F807 /* appVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7C42823677200B0F807 /* appVIPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2FE7B52823677200B0F807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2FE79C2823677000B0F807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2FE7A32823677000B0F807;
+			remoteInfo = appVIP;
+		};
+		EC2FE7BF2823677200B0F807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2FE79C2823677000B0F807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2FE7A32823677000B0F807;
+			remoteInfo = appVIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2FE7A42823677000B0F807 /* appVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE7A72823677000B0F807 /* appVIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPApp.swift; sourceTree = "<group>"; };
+		EC2FE7A92823677000B0F807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC2FE7AB2823677100B0F807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2FE7AE2823677100B0F807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC2FE7B42823677200B0F807 /* appVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE7B82823677200B0F807 /* appVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPTests.swift; sourceTree = "<group>"; };
+		EC2FE7BE2823677200B0F807 /* appVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE7C22823677200B0F807 /* appVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPUITests.swift; sourceTree = "<group>"; };
+		EC2FE7C42823677200B0F807 /* appVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2FE7A12823677000B0F807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7B12823677200B0F807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7BB2823677200B0F807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2FE79B2823677000B0F807 = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7A62823677000B0F807 /* appVIP */,
+				EC2FE7B72823677200B0F807 /* appVIPTests */,
+				EC2FE7C12823677200B0F807 /* appVIPUITests */,
+				EC2FE7D1282367A000B0F807 /* Domain */,
+				EC2FE7A52823677000B0F807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2FE7A52823677000B0F807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7A42823677000B0F807 /* appVIP.app */,
+				EC2FE7B42823677200B0F807 /* appVIPTests.xctest */,
+				EC2FE7BE2823677200B0F807 /* appVIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2FE7A62823677000B0F807 /* appVIP */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7A72823677000B0F807 /* appVIPApp.swift */,
+				EC2FE7A92823677000B0F807 /* ContentView.swift */,
+				EC2FE7AB2823677100B0F807 /* Assets.xcassets */,
+				EC2FE7AD2823677100B0F807 /* Preview Content */,
+			);
+			path = appVIP;
+			sourceTree = "<group>";
+		};
+		EC2FE7AD2823677100B0F807 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7AE2823677100B0F807 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC2FE7B72823677200B0F807 /* appVIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7B82823677200B0F807 /* appVIPTests.swift */,
+			);
+			path = appVIPTests;
+			sourceTree = "<group>";
+		};
+		EC2FE7C12823677200B0F807 /* appVIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7C22823677200B0F807 /* appVIPUITests.swift */,
+				EC2FE7C42823677200B0F807 /* appVIPUITestsLaunchTests.swift */,
+			);
+			path = appVIPUITests;
+			sourceTree = "<group>";
+		};
+		EC2FE7D1282367A000B0F807 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7D2282367B600B0F807 /* AppVIP */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EC2FE7D2282367B600B0F807 /* AppVIP */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7D4282367D200B0F807 /* Scenes */,
+				EC2FE7D3282367C800B0F807 /* Models */,
+			);
+			path = AppVIP;
+			sourceTree = "<group>";
+		};
+		EC2FE7D3282367C800B0F807 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC2FE7D4282367D200B0F807 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7D5282367EB00B0F807 /* CreateItem */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EC2FE7D5282367EB00B0F807 /* CreateItem */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE7D72823680D00B0F807 /* UIComponents */,
+				EC2FE7D6282367FF00B0F807 /* Extensions */,
+			);
+			path = CreateItem;
+			sourceTree = "<group>";
+		};
+		EC2FE7D6282367FF00B0F807 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC2FE7D72823680D00B0F807 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2FE7A32823677000B0F807 /* appVIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE7C82823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIP" */;
+			buildPhases = (
+				EC2FE7A02823677000B0F807 /* Sources */,
+				EC2FE7A12823677000B0F807 /* Frameworks */,
+				EC2FE7A22823677000B0F807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appVIP;
+			productName = appVIP;
+			productReference = EC2FE7A42823677000B0F807 /* appVIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2FE7B32823677200B0F807 /* appVIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE7CB2823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIPTests" */;
+			buildPhases = (
+				EC2FE7B02823677200B0F807 /* Sources */,
+				EC2FE7B12823677200B0F807 /* Frameworks */,
+				EC2FE7B22823677200B0F807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2FE7B62823677200B0F807 /* PBXTargetDependency */,
+			);
+			name = appVIPTests;
+			productName = appVIPTests;
+			productReference = EC2FE7B42823677200B0F807 /* appVIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2FE7BD2823677200B0F807 /* appVIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE7CE2823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIPUITests" */;
+			buildPhases = (
+				EC2FE7BA2823677200B0F807 /* Sources */,
+				EC2FE7BB2823677200B0F807 /* Frameworks */,
+				EC2FE7BC2823677200B0F807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2FE7C02823677200B0F807 /* PBXTargetDependency */,
+			);
+			name = appVIPUITests;
+			productName = appVIPUITests;
+			productReference = EC2FE7BE2823677200B0F807 /* appVIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2FE79C2823677000B0F807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EC2FE7A32823677000B0F807 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					EC2FE7B32823677200B0F807 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EC2FE7A32823677000B0F807;
+					};
+					EC2FE7BD2823677200B0F807 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EC2FE7A32823677000B0F807;
+					};
+				};
+			};
+			buildConfigurationList = EC2FE79F2823677000B0F807 /* Build configuration list for PBXProject "appVIP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2FE79B2823677000B0F807;
+			productRefGroup = EC2FE7A52823677000B0F807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2FE7A32823677000B0F807 /* appVIP */,
+				EC2FE7B32823677200B0F807 /* appVIPTests */,
+				EC2FE7BD2823677200B0F807 /* appVIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2FE7A22823677000B0F807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FE7AF2823677100B0F807 /* Preview Assets.xcassets in Resources */,
+				EC2FE7AC2823677100B0F807 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7B22823677200B0F807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7BC2823677200B0F807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2FE7A02823677000B0F807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FE7AA2823677000B0F807 /* ContentView.swift in Sources */,
+				EC2FE7A82823677000B0F807 /* appVIPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7B02823677200B0F807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FE7B92823677200B0F807 /* appVIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2FE7BA2823677200B0F807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2FE7C52823677200B0F807 /* appVIPUITestsLaunchTests.swift in Sources */,
+				EC2FE7C32823677200B0F807 /* appVIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2FE7B62823677200B0F807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2FE7A32823677000B0F807 /* appVIP */;
+			targetProxy = EC2FE7B52823677200B0F807 /* PBXContainerItemProxy */;
+		};
+		EC2FE7C02823677200B0F807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2FE7A32823677000B0F807 /* appVIP */;
+			targetProxy = EC2FE7BF2823677200B0F807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC2FE7C62823677200B0F807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2FE7C72823677200B0F807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2FE7C92823677200B0F807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appVIP/Preview Content\"";
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2FE7CA2823677200B0F807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appVIP/Preview Content\"";
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC2FE7CC2823677200B0F807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appVIP.app/appVIP";
+			};
+			name = Debug;
+		};
+		EC2FE7CD2823677200B0F807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appVIP.app/appVIP";
+			};
+			name = Release;
+		};
+		EC2FE7CF2823677200B0F807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appVIP;
+			};
+			name = Debug;
+		};
+		EC2FE7D02823677200B0F807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YR2TPNW585;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com200dev.appVIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appVIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2FE79F2823677000B0F807 /* Build configuration list for PBXProject "appVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE7C62823677200B0F807 /* Debug */,
+				EC2FE7C72823677200B0F807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE7C82823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE7C92823677200B0F807 /* Debug */,
+				EC2FE7CA2823677200B0F807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE7CB2823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE7CC2823677200B0F807 /* Debug */,
+				EC2FE7CD2823677200B0F807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE7CE2823677200B0F807 /* Build configuration list for PBXNativeTarget "appVIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE7CF2823677200B0F807 /* Debug */,
+				EC2FE7D02823677200B0F807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2FE79C2823677000B0F807 /* Project object */;
+}
