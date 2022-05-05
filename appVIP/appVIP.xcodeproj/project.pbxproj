@@ -14,6 +14,10 @@
 		EC2FE7B92823677200B0F807 /* appVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7B82823677200B0F807 /* appVIPTests.swift */; };
 		EC2FE7C32823677200B0F807 /* appVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7C22823677200B0F807 /* appVIPUITests.swift */; };
 		EC2FE7C52823677200B0F807 /* appVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7C42823677200B0F807 /* appVIPUITestsLaunchTests.swift */; };
+		EC2FE7D9282369A200B0F807 /* CreateItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7D8282369A200B0F807 /* CreateItemModel.swift */; };
+		EC2FE7DB28236A6900B0F807 /* CreateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7DA28236A6900B0F807 /* CreateItemView.swift */; };
+		EC2FE7DD28236A8D00B0F807 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7DC28236A8D00B0F807 /* Item.swift */; };
+		EC2FE7DF28236A9F00B0F807 /* ItemDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE7DE28236A9F00B0F807 /* ItemDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EC2FE7BE2823677200B0F807 /* appVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2FE7C22823677200B0F807 /* appVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPUITests.swift; sourceTree = "<group>"; };
 		EC2FE7C42823677200B0F807 /* appVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC2FE7D8282369A200B0F807 /* CreateItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemModel.swift; sourceTree = "<group>"; };
+		EC2FE7DA28236A6900B0F807 /* CreateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemView.swift; sourceTree = "<group>"; };
+		EC2FE7DC28236A8D00B0F807 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EC2FE7DE28236A9F00B0F807 /* ItemDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +147,8 @@
 		EC2FE7D2282367B600B0F807 /* AppVIP */ = {
 			isa = PBXGroup;
 			children = (
-				EC2FE7D4282367D200B0F807 /* Scenes */,
 				EC2FE7D3282367C800B0F807 /* Models */,
+				EC2FE7D4282367D200B0F807 /* Scenes */,
 			);
 			path = AppVIP;
 			sourceTree = "<group>";
@@ -148,6 +156,8 @@
 		EC2FE7D3282367C800B0F807 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC2FE7DC28236A8D00B0F807 /* Item.swift */,
+				EC2FE7DE28236A9F00B0F807 /* ItemDataStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,8 +173,10 @@
 		EC2FE7D5282367EB00B0F807 /* CreateItem */ = {
 			isa = PBXGroup;
 			children = (
-				EC2FE7D72823680D00B0F807 /* UIComponents */,
+				EC2FE7D8282369A200B0F807 /* CreateItemModel.swift */,
+				EC2FE7DA28236A6900B0F807 /* CreateItemView.swift */,
 				EC2FE7D6282367FF00B0F807 /* Extensions */,
+				EC2FE7D72823680D00B0F807 /* UIComponents */,
 			);
 			path = CreateItem;
 			sourceTree = "<group>";
@@ -313,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2FE7DD28236A8D00B0F807 /* Item.swift in Sources */,
 				EC2FE7AA2823677000B0F807 /* ContentView.swift in Sources */,
+				EC2FE7DF28236A9F00B0F807 /* ItemDataStore.swift in Sources */,
+				EC2FE7DB28236A6900B0F807 /* CreateItemView.swift in Sources */,
 				EC2FE7A82823677000B0F807 /* appVIPApp.swift in Sources */,
+				EC2FE7D9282369A200B0F807 /* CreateItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
